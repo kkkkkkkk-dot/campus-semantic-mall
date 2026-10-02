@@ -1,0 +1,67 @@
+{
+  "name": "mall4v",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vite",
+    "dev:test": "vite --mode testing",
+    "build": "vite build",
+    "build:test": "vite build --mode testing",
+    "lint": "oxlint src",
+    "lint:fix": "oxlint --fix src",
+    "fmt": "oxfmt .",
+    "fmt:check": "oxfmt --check .",
+    "preview": "vite preview",
+    "lint:staged": "lint-staged"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "2.3.1",
+    "@smallwei/avue": "3.2.22",
+    "axios": "1.7.9",
+    "big.js": "6.2.2",
+    "crypto-js": "4.2.0",
+    "echarts": "5.6.0",
+    "element-plus": "2.9.3",
+    "element-resize-detector": "1.2.4",
+    "js-base64": "3.7.5",
+    "lodash": "4.17.21",
+    "moment": "2.30.1",
+    "pinia": "2.3.0",
+    "qs": "6.14.0",
+    "vue": "3.5.13",
+    "vue-cookies": "1.8.5",
+    "vue-draggable-next": "2.2.1",
+    "vue-router": "4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.5",
+    "lint-staged": "15.3.0",
+    "oxfmt": "0.41.0",
+    "oxlint": "1.56.0",
+    "sass": "1.83.4",
+    "sortablejs": "1.15.6",
+    "unplugin-auto-import": "19.0.0",
+    "unplugin-vue-components": "28.0.0",
+    "vite": "8.0.1",
+    "vite-plugin-compression2": "2.5.3",
+    "vite-plugin-svg-icons": "2.0.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,vue}": [
+      "oxlint --fix",
+      "oxfmt"
+    ],
+    "src/**/*.{css,scss}": [
+      "oxfmt"
+    ],
+    "*.{json,md,html,yml,yaml}": [
+      "oxfmt"
+    ]
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0",
+    "pnpm": ">=7"
+  }
+}

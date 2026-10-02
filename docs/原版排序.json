@@ -1,0 +1,98 @@
+{
+  "code": "00000",
+  "data": {
+    "current": 1,
+    "pages": 1,
+    "records": [
+      {
+        "pic": "https://example.com/mi.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 5999.0,
+        "prodCommNumber": 0,
+        "prodId": 78,
+        "prodName": "小米手机 13 Ultra"
+      },
+      {
+        "pic": "https://example.com/huawei.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 6999.0,
+        "prodCommNumber": 0,
+        "prodId": 79,
+        "prodName": "华为手机 Mate 60 Pro"
+      },
+      {
+        "pic": "https://example.com/oppo.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 4999.0,
+        "prodCommNumber": 0,
+        "prodId": 80,
+        "prodName": "OPPO手机 Find X7"
+      },
+      {
+        "pic": "https://example.com/vivo.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 5499.0,
+        "prodCommNumber": 0,
+        "prodId": 81,
+        "prodName": "vivo手机 X100 Pro"
+      },
+      {
+        "pic": "https://example.com/honor.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 4399.0,
+        "prodCommNumber": 0,
+        "prodId": 82,
+        "prodName": "荣耀手机 Magic 6"
+      },
+      {
+        "pic": "https://example.com/redmi.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 2499.0,
+        "prodCommNumber": 0,
+        "prodId": 83,
+        "prodName": "Redmi手机 K70"
+      },
+      {
+        "pic": "https://example.com/samsung.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 6999.0,
+        "prodCommNumber": 0,
+        "prodId": 84,
+        "prodName": "三星手机 Galaxy S24"
+      },
+      {
+        "pic": "https://example.com/oneplus.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 4299.0,
+        "prodCommNumber": 0,
+        "prodId": 85,
+        "prodName": "一加手机 12"
+      },
+      {
+        "pic": "https://img.mall4j.com/2019/04/eaa8c9bd3e7b41eaa310adbde10b6401.jpg",
+        "positiveRating": 0.0,
+        "praiseNumber": 0,
+        "price": 1.01,
+        "prodCommNumber": 0,
+        "prodId": 18,
+        "prodName": "Apple iPhone XS Max 移动联通电信4G手机 "
+      }
+    ],
+    "size": 10,
+    "total": 9
+  },
+  "fail": false,
+  "msg": null,
+  "sign": null,
+  "success": true,
+  "timestamp": null,
+  "version": "mall4j.v230424"
+}
