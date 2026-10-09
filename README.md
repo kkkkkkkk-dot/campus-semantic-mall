@@ -1,3 +1,4 @@
+<img width="2048" height="1024" alt="image" src="https://github.com/user-attachments/assets/db8b4b92-aa01-4f40-ad01-19c1e5b001b9" />
 # Campus Semantic Mall（校园智能商品交易平台）
 
 ## 一、项目简介
