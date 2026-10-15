@@ -94,6 +94,18 @@ ai-evaluation/results/summary-report.csv
 ai-evaluation/results/per-query.csv
 ai-evaluation/results/fusion-warnings.txt
 ```
+## 本地验证截图
+
+### 原版 MySQL LIKE 排序（异常低价商品排前）
+<img width="1453" height="901" alt="image" src="https://github.com/user-attachments/assets/f0c429c0-d729-4eb2-b31f-6b127497e49a" />
+<img width="1503" height="666" alt="image" src="https://github.com/user-attachments/assets/70e6567f-b23d-435d-a5a9-a65a6a060c3b" />
+
+
+
+### AI 语义重排 + 融合排序（异常低价商品被压后）
+<img width="1443" height="791" alt="image" src="https://github.com/user-attachments/assets/2a422c31-a048-4a02-aaf6-8f50083c751a" />
+<img width="1191" height="663" alt="image" src="https://github.com/user-attachments/assets/cf5153bf-5909-44f4-acef-9c4f21a6bf51" />
+
 
 ## 七、后续优化方向
 
