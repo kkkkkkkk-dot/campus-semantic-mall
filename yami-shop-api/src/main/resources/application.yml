@@ -11,18 +11,25 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     time-zone: GMT+8
-# DeepSeek AI 语义排序配置
+# 自定义 DeepSeek ChatModel 配置，仅由 DeepSeekAiConfig 使用
 mall4j:
   ai:
     deepseek:
-      # 未配置 API Key 时不创建 ChatModel，语义排序接口自动降级为原始 MySQL 查询
+      # 未配置 API Key 时不创建自定义 ChatModel，语义排序接口自动降级为原始 MySQL 查询
       api-key: ${DEEPSEEK_API_KEY:}
-      base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com}
+      base-url: ${DEEPSEEK_BASE_URL:https://api.deepseek.com/v1}
       model: ${DEEPSEEK_MODEL:deepseek-chat}
       temperature: ${DEEPSEEK_TEMPERATURE:0.0}
       max-tokens: ${DEEPSEEK_MAX_TOKENS:800}
-      connect-timeout: ${DEEPSEEK_CONNECT_TIMEOUT:2s}
-      read-timeout: ${DEEPSEEK_READ_TIMEOUT:15s}
+      timeout: ${DEEPSEEK_TIMEOUT:15s}
+      max-retries: ${DEEPSEEK_MAX_RETRIES:2}
+    semantic-fusion:
+      alpha: ${SEMANTIC_ALPHA:0.50}
+      beta: ${SEMANTIC_BETA:0.35}
+      gamma: ${SEMANTIC_GAMMA:0.15}
+      delta: ${SEMANTIC_DELTA:0.00}
+      price-anomaly-ratio: ${PRICE_ANOMALY_RATIO:0.50}
+      min-category-samples: ${PRICE_MIN_CATEGORY_SAMPLES:3}
 # mybaits-plus配置
 mybatis-plus:
   # MyBatis Mapper所对应的XML文件位置

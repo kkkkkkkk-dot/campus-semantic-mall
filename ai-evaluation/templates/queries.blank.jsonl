@@ -1,0 +1,1 @@
+{"queryId":"q001","query":"请填写搜索词","candidateIds":[1001,1002,1003],"ideal":[{"prodId":1001,"relevance":3},{"prodId":1002,"relevance":2},{"prodId":1003,"relevance":1}],"hardNegatives":[],"notes":"请填写说明"}

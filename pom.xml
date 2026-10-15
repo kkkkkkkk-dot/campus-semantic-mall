@@ -15,6 +15,7 @@
         <module>yami-shop-bean</module>
         <module>yami-shop-service</module>
         <module>yami-shop-security</module>
+        <module>ai-evaluation</module>
     </modules>
 
     <properties>

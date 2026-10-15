@@ -1,0 +1,1 @@
+{"queryId":"q001","query":"旧 iPhone 手机","candidateIds":[1003,1001,1006,1005,1002],"ideal":[{"prodId":1003,"relevance":3},{"prodId":1001,"relevance":2},{"prodId":1005,"relevance":1}],"hardNegatives":[1006],"notes":"1006 为标题含 1 元的异常低价旧 iPhone，默认权重下重点验证其是否被压出 Top3"}
