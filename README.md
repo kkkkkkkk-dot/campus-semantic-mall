@@ -94,6 +94,15 @@ ai-evaluation/results/summary-report.csv
 ai-evaluation/results/per-query.csv
 ai-evaluation/results/fusion-warnings.txt
 ```
+## 压测结果（单机，50 并发，JMeter）
+
+| 场景 | QPS | 平均响应 | 错误率 |
+|---|---|---|---|
+| 无 AI 基线 | 109.2 | 333 ms | 0% |
+| AI 成功 | 26.2 | 1099 ms | 0% |
+| AI 降级 | 72.0 | 537 ms | 0% |
+
+结论：AI 调用是性能瓶颈；降级后 QPS 恢复到基线的 66%，错误率 0%，验证降级策略有效。
 ## 本地验证截图
 
 ### 原版 MySQL LIKE 排序（异常低价商品排前）
